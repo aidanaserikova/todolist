@@ -1,0 +1,105 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.todoList {
+  padding: 50px 50px;
+}
+.box_back {
+  background-color: dimgray;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+}
+.box {
+  background-color: orangered;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.box_title {
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+.box_text {
+  color: white;
+  padding-left: 40px;
+  font-size: 12px;
+}
+.box_line {
+  background: white;
+  width: 320px;
+  height: 0.5px;
+  margin-top: 10px;
+}
+.box_enter {
+  margin-top: 20px;
+}
+.box_enterr {
+  margin: 0 20px 5px 20px;
+  display: flex;
+  background-color: tomato;
+}
+.enter_input input {
+  border: none;
+  appearance: none;
+  outline: none;
+  padding: 10px;
+  width: 300px;
+  background: transparent;
+}
+
+.enter_buttons {
+  display: flex;
+  gap: 15px;
+}
+.enter_edit button {
+  background: transparent;
+  border: none;
+}
+.enter_delete button {
+  background: transparent;
+  border: none;
+}
+.box_newtodo {
+  color: white;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+.box_input {
+  display: flex;
+  padding-top: 5px;
+}
+
+.int input {
+  padding: 10px;
+  width: 250px;
+  margin-left: 40px;
+  appearance: none;
+  outline: none;
+  border: none;
+}
+
+.button button {
+  color: white;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+.button button:hover {
+  border: 2px solid blue;
+}
+.btn_action img {
+  pointer-events: none;
+}
+
+.done {
+  text-decoration: line-through;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="../todolist/style.css" />
+  </head>
+  <body>
+    <section class="todoList">
+      <div class="box_back"></div>
+      <div class="box" id="box">
+        <div class="box_title">Todo List</div>
+        <div class="box_text">A simple Todo List App</div>
+        <div class="box_line"></div>
+
+        <div class="box_enter" id="box_enter">
+          <!-- <div class="enter_input"><input type="text"  value=""/></div>
+          <div class="enter_buttons">
+            <div class="enter_edit">
+              <button type="button" data-action="done" class="btn_action">
+                <img src="../todolist/image/pencil.png" alt="" />
+              </button>
+            </div>
+            <div class="enter_delete">
+              <button type="button" data-action="delete" class="btn_action">
+                <img src="../todolist/image/bin.png" alt="" />
+              </button>
+            </div>
+          </div> -->
+        </div>
+
+        <div class="box_newtodo">New todo</div>
+        <form class="box_input" id="box_int">
+          <div class="int">
+            <input type="text" id="inputt" placeholder="New Todo" />
+          </div>
+          <div class="button" id="butto"><button>Add TODO</button></div>
+        </form>
+      </div>
+    </section>
+    <script src="../todolist/main.js"></script>
+  </body>
+</html>
